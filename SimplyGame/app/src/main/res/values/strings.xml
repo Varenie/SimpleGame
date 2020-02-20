@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimplyGame</string>
+    <string name="zero">0</string>
+    <string name="X">X</string>
+    <string name="answer">Chose your answer</string>
+    <string name="next_round">Next round</string>
+    <string name="start">Start Game</string>
+    <string name="score">Score: </string>
+</resources>
