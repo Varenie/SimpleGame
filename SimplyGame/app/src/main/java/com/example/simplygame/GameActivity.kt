@@ -96,6 +96,8 @@ class GameActivity : AppCompatActivity() {
             val lose = Toast.makeText(this, "It's wrong answer(", Toast.LENGTH_SHORT)
             lose.show()
 
+            highscoreShow(score)
+
             score = 0
             scoreView.text = "Score: " + score.toString()
         }
@@ -121,6 +123,8 @@ class GameActivity : AppCompatActivity() {
             val lose = Toast.makeText(this, "It's wrong answer(", Toast.LENGTH_SHORT)
             lose.show()
 
+            highscoreShow(score)
+
             score = 0
             scoreView.text = "Score: " + score.toString()
         }
@@ -145,6 +149,8 @@ class GameActivity : AppCompatActivity() {
             val lose = Toast.makeText(this, "It's wrong answer(", Toast.LENGTH_SHORT)
             lose.show()
 
+            highscoreShow(score)
+
             score = 0
             scoreView.text = "Score: " + score.toString()
         }
@@ -152,4 +158,7 @@ class GameActivity : AppCompatActivity() {
         drawAll()
     }
 
+    fun highscoreShow(highscore: Int){
+        highscoreView.text = "Highscore: " + highscore.toString()
+    }
 }

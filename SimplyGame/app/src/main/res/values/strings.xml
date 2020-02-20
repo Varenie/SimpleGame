@@ -6,4 +6,5 @@
     <string name="next_round">Next round</string>
     <string name="start">Start Game</string>
     <string name="score">Score: </string>
+    <string name="highscore">Highscore: </string>
 </resources>
