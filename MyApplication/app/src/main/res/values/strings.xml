@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_user">Hello User!</string>
+    <string name="push_me">Push Me!</string>
+    <string name="count">Count</string>
+    <string name="zero">0</string>
+</resources>
